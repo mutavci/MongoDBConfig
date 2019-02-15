@@ -32,7 +32,7 @@ login:
 
 //RandomString Otomatik mongodb user ve password belirlemek için
 func RandomString(length int) string {
-	var seededRand *rand.Rand = rand.New(
+	seededRand := rand.New(
 		rand.NewSource(time.Now().UnixNano()))
 	time.Sleep(1 * time.Second)
 	chars := []rune("ABCDEFGHIJKLMNOPQRSTUVWXYZ" +
@@ -77,6 +77,8 @@ type MongodbConf struct {
 		TimeStampFormat string `yaml:"timeStampFormat"`
 	} `yaml:"systemLog"`
 }
+
+//MongodbLogin Login Bilgilerini Yaml Dosyasına yazmak için Kullandığımız Model
 type MongodbLogin struct {
 	Login struct {
 		Username string `yaml:"username"`

@@ -12,6 +12,7 @@ import (
 	yaml "gopkg.in/yaml.v2"
 )
 
+//ConfigFile Dosya yollarını ve configrasyon dosyasını yarlıyor.
 func ConfigFile(Config *MongodbConf) {
 
 	pwd, err := os.Getwd()

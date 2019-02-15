@@ -7,6 +7,7 @@ import (
 	"path"
 )
 
+//MongoServiceInstall Komut Satırı üzerinden mongodb servis çalıştırıyor.
 func MongoServiceInstall() {
 	pwd, _ := os.Getwd()
 	startmongo := path.Join(pwd, "mongodb-win32-x86_64-2008plus-ssl-4.0.5", "bin") + "/mongod.exe --config " + path.Join(pwd, "data/conf.yaml --install")
