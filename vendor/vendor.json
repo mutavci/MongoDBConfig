@@ -21,7 +21,7 @@
 			"revisionTime": "2017-12-08T18:51:09Z"
 		},
 		{
-			"checksumSHA1": "/5fCary0ezTFAHA/vxtBGIaax6M=",
+			"checksumSHA1": "LtPwT8NIlxPmD8ouNJW0EZXuTGM=",
 			"path": "github.com/dsnet/compress/bzip2/internal/sais",
 			"revision": "cc9eb1d7ad760af14e8f918698f745e80377af4f",
 			"revisionTime": "2017-12-08T18:51:09Z"
@@ -75,28 +75,28 @@
 			"revisionTime": "2019-01-22T09:24:03Z"
 		},
 		{
-			"checksumSHA1": "yxSaPk8tWOqCWHEuBJSO4ztZrSc=",
+			"checksumSHA1": "1RkQh6UgMGt5P3rni9+TfYGKECU=",
 			"path": "github.com/ulikunitz/xz",
-			"revision": "590df8077fbcb06ad62d7714da06c00e5dd2316d",
-			"revisionTime": "2018-10-28T18:44:06Z"
+			"revision": "6f934d456d51e742b4eeab20d925a827ef22320a",
+			"revisionTime": "2019-02-20T20:51:30Z"
 		},
 		{
 			"checksumSHA1": "q/e04/YCI0qFXFCxbgC41NNbg0k=",
 			"path": "github.com/ulikunitz/xz/internal/hash",
-			"revision": "590df8077fbcb06ad62d7714da06c00e5dd2316d",
-			"revisionTime": "2018-10-28T18:44:06Z"
+			"revision": "6f934d456d51e742b4eeab20d925a827ef22320a",
+			"revisionTime": "2019-02-20T20:51:30Z"
 		},
 		{
 			"checksumSHA1": "Q6GAVmjyMSfhzG4N0Ft6CkxMM3U=",
 			"path": "github.com/ulikunitz/xz/internal/xlog",
-			"revision": "590df8077fbcb06ad62d7714da06c00e5dd2316d",
-			"revisionTime": "2018-10-28T18:44:06Z"
+			"revision": "6f934d456d51e742b4eeab20d925a827ef22320a",
+			"revisionTime": "2019-02-20T20:51:30Z"
 		},
 		{
 			"checksumSHA1": "sCQxEPZWmY2zlVs1tLvn3FqS5jk=",
 			"path": "github.com/ulikunitz/xz/lzma",
-			"revision": "590df8077fbcb06ad62d7714da06c00e5dd2316d",
-			"revisionTime": "2018-10-28T18:44:06Z"
+			"revision": "6f934d456d51e742b4eeab20d925a827ef22320a",
+			"revisionTime": "2019-02-20T20:51:30Z"
 		},
 		{
 			"checksumSHA1": "zbnP3XQWZebAP2dXwo0rYWkiq2c=",

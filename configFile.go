@@ -32,6 +32,7 @@ func ConfigFile(Config *MongodbConf) {
 	yaml.Unmarshal([]byte(ConfigValues), &Config)
 	Config.SystemLog.Path = log
 	Config.Storage.DbPath = db
+	Config.Security.Authorization = "disabled"
 	d, _ := yaml.Marshal(&Config)
 	fileHandle, _ := os.Create("./data/conf.yaml")
 	writer := bufio.NewWriter(fileHandle)

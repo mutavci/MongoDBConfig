@@ -2,14 +2,14 @@ net:
   bindIp: 0.0.0.0
   port: 27018
 security:
-  authorization: enabled
+  authorization: disabled
 storage:
-  dbPath: C:\Users\murat.avci\Desktop\examples\dowloanding/data/db
+  dbPath: C:\Users\murat.avci\go\src\github.com\mutavci\MongoDBConfig/data/db
   journal:
     enabled: true
 systemLog:
   destination: file
   logAppend: true
-  path: C:\Users\murat.avci\Desktop\examples\dowloanding/data/db/mongodb.log
+  path: C:\Users\murat.avci\go\src\github.com\mutavci\MongoDBConfig/data/db/mongodb.log
   timeStampFormat: iso8601-utc
 
